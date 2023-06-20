@@ -8,8 +8,8 @@ export default function Home() {
     <main className="main-center">
       <div className="font-lg">{count}</div>
       <div>
-        <button className="m-3" onClick={() => setCount(count + 1)}>เพิ่ม</button>
-        <button className="m-3" onClick={() => {
+        <button className="m-3 btn btn-primary" onClick={() => setCount(count + 1)}>เพิ่ม</button>
+        <button className="m-3 btn btn-secondary" onClick={() => {
             if(count === 0) return;
             setCount(count - 1)
         }}>ลด</button>
