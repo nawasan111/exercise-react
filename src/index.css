@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-size: 24px;
+  text-align: center;
+  background-color: rgb(131, 166, 255);
+}
+
+main {
+  min-height: 90vh;
+  border: 2px solid rgb(131, 166, 255);
+  margin: 5px;
+  border-radius: 6px;
+}
+
+footer {
+  background-color: rgb(131, 166, 255);
+  text-align: center;
+}
+
+.main-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.font-lg {
+    font-size: 64px;
+}
+
+.font-sm {
+    font-size: 20px;
+}
+
+.m-3 {
+    margin: 3px;
+}
+
+.text-center {
+    text-align: center;
+}
