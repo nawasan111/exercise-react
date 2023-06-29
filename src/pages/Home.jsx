@@ -21,7 +21,7 @@ export default function Home() {
         <button className="m-3 btn btn-secondary" onClick={getReduce}>ลด</button>
      </div>
         <div className="m-3">
-            <div className="font-sm">{count} {isPrime(count) && <b className="text-danger">ไม่</b>}เป็นจำนวนเฉพาะ</div>
+            <div className="font-sm">{count} {!isPrime(count) && <b className="text-danger">ไม่</b>}เป็นจำนวนเฉพาะ</div>
         </div>
  
  <div>
